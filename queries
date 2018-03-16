@@ -1,0 +1,161 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Introduction</title>
+	<style>
+		.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+		
+		.footer{
+		 overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  margin-bottom: -10%;
+		margin-top:70%;
+		height:10%;
+  width: 100%;
+		}
+		.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+		
+		
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+		height:10%;
+  width: 100%;
+		}
+		.info {
+    background-color: lightgrey;
+    border-left: 6px solid #333;
+		margin-left:0px;
+}
+	
+	.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+	.cont {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.cont::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cont img {
+    float: left;
+    max-width: 60px;
+    width: 0%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.cont img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}</style>
+</head>
+<body>
+	
+	<div class="navbar">
+		<center><h1 style="text-shadow: 1px 1px white;"><i>Farmers Help Center</i></h1></center>
+</div>
+<div class="sidenav">
+	<br/>
+	<h2 style="margin-left:20px;">Menu</h2>
+		<br/>
+ 
+  <a href="file:///home/aissel-testing/Desktop/new/about">AboutUs</a>
+  <a href="file:///home/aissel-testing/Desktop/new/diseases">Diseases</a>
+  <a href="file:///home/aissel-testing/Desktop/new/machines">Machines</a>
+	 <a href="file:///home/aissel-testing/Desktop/new/crop">CropPrice</a>
+	<a href="file:///home/aissel-testing/Desktop/new/queries">UserQueries</a>
+	  <a href="file:///home/aissel-testing/Desktop/new/index">LogOut</a>
+	
+	
+</div>	
+	
+<br/>
+	<br/>
+<br/>
+	<div class="main">
+
+		<h2><font color="#333">User Queries</font></h2>
+		<div class="cont">
+  <img src="u1.jpg" alt="Avatar" style="width:10%;"/>
+  <p>Hello...Please any one suggest me which crop i have to use for loam soil</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="cont">
+  <img src="u2.jpg" alt="Avatar" class="right" style="width:10%;"/>
+  <p>Hi......u can use wheat crop</p>
+  <span class="time-left">11:01</span>
+</div>
+<br/>
+		<input type="textarea" name="a1" placeholder="Write a Comment..." style="width:70%;height:20px;"/>
+		<input type="submit" name="submit" value="submit"/>
+
+
+		
+
+		
+		
+		
+	
+		
+		
+		
+		
+		<div class="footer">
+			</div>
+		
+			</div>
+	
+			</body>
+</html>

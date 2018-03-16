@@ -1,0 +1,150 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Introduction</title>
+	<style>
+		.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+		
+		.footer{
+		 overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  margin-bottom: -10%;
+		margin-top:70%;
+		height:10%;
+  width: 100%;
+		}
+		.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+		
+		
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+		height:10%;
+  width: 100%;
+		}
+		.info {
+    background-color: lightgrey;
+    border-left: 6px solid #333;
+		margin-left:0px;
+}
+	table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:lightgrey}
+
+th {
+    background-color: #333;
+    color: white;
+}
+		
+	.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}</style>
+</head>
+<body>
+	
+	<div class="navbar">
+		<center><h1 style="text-shadow: 1px 1px white;"><i>Farmers Help Center</i></h1></center>
+</div>
+<div class="sidenav">
+	<br/>
+	<h2 style="margin-left:20px;">Menu</h2>
+		<br/>
+ 
+  <a href="file:///home/aissel-testing/Desktop/new/about">AboutUs</a>
+  
+  <a href="file:///home/aissel-testing/Desktop/new/diseases">Diseases</a>
+	 <a href="file:///home/aissel-testing/Desktop/new/machines">Machines</a>
+	<a href="file:///home/aissel-testing/Desktop/new/queries">UserQueries</a>
+	  <a href="file:///home/aissel-testing/Desktop/new/index"><i class="fa fa-home">LogOut</i></a>
+</div>	
+	
+<br/>
+	<br/>
+<br/>
+	<div class="main">
+
+		
+		<h3><font color="#333">Crop Prices</font></h3>
+		<br/>
+		
+		<table border="1">
+			<tr>
+				<th>No.</th>
+				<th>Crop Name</th>
+				<th>Image</th>
+				<th>Price</th>
+				<th>Edit</th>
+			
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Wheat</td>
+				<td><img src="w.jpg"/></td>
+				<td>1700</td>
+				<td><a href="">edit</a></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Barley</td>
+				<td><img src="b.jpg"/></td>
+				<td>1450</td>
+				<td><a href="">edit</a></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Gram</td>
+				<td><img src="g.jpg" alt=""/></td>
+				<td>4440</td>
+				<td><a href="">edit</a></td>
+			</tr>
+				
+			
+			
+		</table>
+		
+	
+	
+		
+		
+		
+		<div class="footer">
+			</div>
+		
+			</div>
+	
+			</body>
+</html>

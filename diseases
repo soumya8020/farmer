@@ -1,0 +1,157 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Introduction</title>
+	<style>
+		.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+		
+		.footer{
+		 overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  margin-bottom: -10%;
+		margin-top:70%;
+		height:10%;
+  width: 100%;
+		}
+		.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+		
+		
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+		height:10%;
+  width: 100%;
+		}
+		.info {
+    background-color: lightgrey;
+    border-left: 6px solid #333;
+		margin-left:0px;
+}
+		table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:lightgrey}
+
+th {
+    background-color: #333;
+    color: white;
+}
+	
+	.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}</style>
+</head>
+<body>
+	
+	<div class="navbar">
+		<center><h1 style="text-shadow: 1px 1px white;"><i>Farmers Help Center</i></h1></center>
+</div>
+<div class="sidenav">
+	<br/>
+	<h2 style="margin-left:20px;">Menu</h2>
+		<br/>
+  
+  <a href="file:///home/aissel-testing/Desktop/new/about">AboutUs</a>
+  
+  <a href="file:///home/aissel-testing/Desktop/new/machines">Machines</a>
+	 <a href="file:///home/aissel-testing/Desktop/new/crop">CropPrice</a>
+	<a href="file:///home/aissel-testing/Desktop/new/queries">UserQueries</a>
+	<a href="file:///home/aissel-testing/Desktop/new/index"><i class="fa fa-home">LogOut</i></a>
+</div>	
+	
+<br/>
+	<br/>
+<br/>
+	<div class="main">
+
+		<h3><font color="#333">Types of diseases</font></h3>
+		<br/>
+		
+		<table border="1">
+			<tr>
+				<th>No.</th>
+				<th>Disease Name</th>
+				<th>Image</th>
+				<th>Occures</th>
+				<th>description</th>
+				<th>Control</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Damping Off</td>
+				<td><img src="dam.jpg"/></td>
+				<td><p>This is a bacterial disease which attacks seedlings as they emerge. It thrives in wet, poorly drained and cool soils. </p></td>
+				<td><p>To avoid this problem, when starting seeds follow sanitary practices. If reusing containers make sure they are clean. Sterilize in a 10% bleach solution.
+					Allowing the soil surface to dry out will go a long way in preventing this problem. 
+					If, for some reason, your seed starting mix remains wet for an extended period of time, look to your kitchen cabinet to help prevent the disease.</p></td>
+				<td><p>Cinnamon powder is a natural fungicide and has been shown to be particularly effective against damping-off. 
+					In addition, Weak chamomile tea ( 4 tea bags per quart of water) is another natural fungicide.
+					Spray seedlings every week.</p></td>
+				
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Blossom End Rot</td>
+				<td><img src="tom.jpg"/></td>
+				<td><p>A physiological disease most usually seen on tomatoes but can also attack peppers and egg plant. </p></td>
+				<td><p>
+					Usually seen on plants grown under favorable conditions early in the season then subjected to a long period of drought. 
+
+Calcium deficiency can also contribute to this disease.Appears as a dark spot at the blossom end of the fruit (opposite the stem end). The skin of the affected area becomes black and leathery. 
+</p></td>
+				<td><p>Maintain an even supply of moisture.
+
+Mulch plants to conserve moisture
+
+Avoid over fertilizing during fruit development
+Try to maintain soil pH around 6.5</p></td>
+				
+			</tr>
+		</table>
+		
+	
+		
+		
+		
+		
+		
+		<div class="footer">
+			</div>
+		
+			</div>
+	
+			</body>
+</html>

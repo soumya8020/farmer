@@ -1,0 +1,105 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Introduction</title>
+	<style>
+		.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+		
+		.footer{
+		 overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  margin-bottom: -10%;
+		margin-top:70%;
+		height:10%;
+  width: 100%;
+		}
+		.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+		
+		
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+		height:10%;
+  width: 100%;
+		}
+		.info {
+    background-color: lightgrey;
+    border-left: 6px solid #333;
+		margin-left:0px;
+}
+	
+	.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}</style>
+</head>
+<body>
+	
+	<div class="navbar">
+		<center><h1 style="text-shadow: 1px 1px white;"><i>Farmers Help Center</i></h1></center>
+</div>
+<div class="sidenav">
+	<br/>
+	<h2 style="margin-left:20px;">Menu</h2>
+		<br/>
+  
+  
+  <a href="file:///home/aissel-testing/Desktop/new/diseases">Diseases</a>
+  <a href="file:///home/aissel-testing/Desktop/new/machines">Machines</a>
+	 <a href="file:///home/aissel-testing/Desktop/new/crop">CropPrice</a>
+	<a href="file:///home/aissel-testing/Desktop/new/queries">UserQueries</a>
+	<a href="file:///home/aissel-testing/Desktop/new/index"><i class="fa fa-home">LogOut</i></a>
+</div>	
+	
+<br/>
+	<br/>
+<br/>
+	<div class="main">
+		<h3><font color="#333">About us</font></h3>
+<p>This website is created to help the <i>Farmers</i>.The farmers may can contact to the mobile numbers to get some information-</p>  
+		<h5><font color="#333">Contact Details-</font></h5>
+		<ol>
+		<li>XYZ- +91-1234567890</li> 
+		<li>XYZ- +91-1368062717</li> 
+		<li>XYZ- +91-9827723544</li> 
+		</ol>
+	<div class="info" height="100%" style="margin-top:140px;margin-left:-10px;">
+  <p><strong>Quote!</strong> Farmers don't just work til the sun goes down, They work til the job gets done.</p>
+</div>	
+		
+		
+		
+		
+		
+		<div class="footer">
+			</div>
+		
+			</div>
+	
+			</body>
+</html>
